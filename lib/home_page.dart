@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 39, 134, 185),
+        backgroundColor: Color.fromARGB(255, 7, 233, 34),
         title: Text("IMC App - 2025"),
         centerTitle: true,
       ),
@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 30.0,
                     fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 41, 172, 243),
+                    color: Color.fromARGB(255, 237, 8, 142),
                   ),
                 ),
                 SizedBox(width: 2.0),
@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                 ),
                 icon: Icon(Icons.play_arrow_rounded),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF003049),
+                  backgroundColor: Color.fromARGB(255, 77, 152, 251),
                 ),
               ),
             ),
@@ -114,14 +114,14 @@ class HomePage extends StatelessWidget {
               "Resultado:",
               style: TextStyle(
                 fontSize: 15.0,
-                color: Color(0xFF003049),
+                color: Color.fromARGB(255, 15, 243, 30),
               ),
             ),
             Center(
               child: Image.asset(
                 "assets/images/image4.png",
                 height: 200.0,
-                width: 200.0,
+                width: 250.0,
                 fit: BoxFit.contain,
               ),
             ),
@@ -134,7 +134,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 30.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.red,
+                      color: const Color.fromARGB(255, 234, 37, 22),
                     ),
                   ),
                   Text(
@@ -142,7 +142,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 18.0,
                       fontWeight: FontWeight.w500,
-                      color: Color(0xFF003049),
+                      color: Color.fromARGB(255, 48, 49, 50),
                     ),
                   ),
                   Padding(
@@ -152,7 +152,7 @@ class HomePage extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 14.0,
-                        color: Colors.grey[700],
+                        color: const Color.fromARGB(255, 97, 160, 243),
                       ),
                     ),
                   ),
